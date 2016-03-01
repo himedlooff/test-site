@@ -22,951 +22,389 @@
 </head>
 <body>
 
-<div class="page">
-            <div class="header">
-    <div class="inner">
-        <div id="AjaxLoading">
-            <div class="ajax-loader">
-                <img src="https://cdn2.bigcommerce.com/server4900/ac138/templates/__custom/images/loader.png?t=1456349654" alt="">&nbsp;Loading... Please wait...
-            </div>
-        </div>
-        
-                
-<div class="TopMenu">
-    <div class="container">
-        <div class="inner">
-            <ul style="display:">
-                <li class="madein">
-                    <div class="flag-icon">MADE IN USA</div>
-                </li>
-                <li class="FloatLeft">
-                    <div class="Block Moveable Panel" id="SideCurrencySelector" style="display:none;"></div>
-                </li>
-                <li style="display:" class="icon-link">
-                    <script type="text/javascript">
-                    //<![CDATA[
-                    var GlobalFname="Guest";
-                    if (GlobalFname!="" && GlobalFname!="Guest")
-                    {
-                        document.writeln ('<a class="Signout" href="https://procompression.com/login.php?action=logout"><i class="fa fa-key"></i><span class="menu-text">Logout</span></a>');
-                    } else {
-                        //document.writeln ('<a class="Signin" href="https://procompression.com/login.php"><i class="fa fa-key"></i><span class="menu-text">Login</span></a>');
-                    }
-                    //]]>
-                    </script>
-                </li>
-                <li style="display:" class="First icon-link">
-                    <a href="https://procompression.com/account.php"><i class="fa fa-user"></i><span class="menu-text">Account</span></a>
-                </li>
-                <li class="last TopCart icon-link" style="display:">
-                   <a href="http://procompression.com/cart.php" title="View Cart"><i class="fa fa-shopping-cart"></i><span class="menu-text"><span class="cart_item">(0 item)</span></span></a>
-                    <div class="dropdownCart" style="display: none;">
-                        <div class="filledcart" style="display: none;"></div>
-                        <div class="emptycart"><h3>Your Shopping Cart</h3><div> There are no items in your cart </div> </div>
-                    </div>
-                </li>
+<section>
+    <h1>HTML Ipsum Presents</h1>
 
-            </ul>
-        </div>
-    </div><!-- end container -->
-</div>
-<script type="text/javascript">
+    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
 
-    if($(".dropdownCart .filledcart #SideCartContents").text() == null || $(".dropdownCart .filledcart #SideCartContents").text() == "" ){
-        $(".dropdownCart .filledcart").hide();
-        $(".dropdownCart .emptycart").show();
-    }else{
-        $(".dropdownCart .filledcart").show();
-        $(".dropdownCart .emptycart").hide();
+    <h2>Header Level 2</h2>
+
+    <ol>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ol>
+
+    <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+
+    <h3>Header Level 3</h3>
+
+    <ul>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ul>
+
+    <pre><code>
+    #header h1 a { 
+        display: block; 
+        width: 300px; 
+        height: 80px; 
     }
-    
-    $('.TopCart').hover(
-        function(){            
-            $(".dropdownCart").fadeIn(100);
-        }
-        ,
-        function(){
-            $(".dropdownCart").fadeOut(100);
-        }
-    );
-    
-    var cartCount = ""
-    if(cartCount != ""){
-            $(".cart_item").html(cartCount);
+    </code></pre>
+
+    <img src="https://placekitten.com/g/2000/1800" alt="">
+</section>
+
+<section>
+    <h1>HTML Ipsum Presents</h1>
+
+    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+
+    <h2>Header Level 2</h2>
+
+    <ol>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ol>
+
+    <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+
+    <h3>Header Level 3</h3>
+
+    <ul>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ul>
+
+    <pre><code>
+    #header h1 a { 
+        display: block; 
+        width: 300px; 
+        height: 80px; 
     }
-    else {
-        $(".cart_item").html('(0 item)');
+    </code></pre>
+
+    <img src="https://placekitten.com/g/2000/1800" alt="">
+</section>
+
+<section>
+    <h1>HTML Ipsum Presents</h1>
+
+    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+
+    <h2>Header Level 2</h2>
+
+    <ol>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ol>
+
+    <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+
+    <h3>Header Level 3</h3>
+
+    <ul>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ul>
+
+    <pre><code>
+    #header h1 a { 
+        display: block; 
+        width: 300px; 
+        height: 80px; 
     }
-    
-    $('.CurrencyChooser .selected-currency').click(function(){
-        $('.CurrencyChooser .BlockContent').toggle();        
-    })
-</script>
+    </code></pre>
 
-        
-        <div class="Block Moveable Panel" id="SideLiveChatServices" style="display:none;"></div>
-        <div id="Header">
-            <div class="container">
-                <div class="inner row">
-                    
-                    <div class="header-logo col-md-3 col-sm-3">
-                        <div id="ToggleMenu">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </div>
-                        <a href="http://procompression.com/"><img src="https://cdn2.bigcommerce.com/server4900/ac138/product_images/pro_compression_logo_1453244958_85084_1456330687__49276.png" id="LogoImage" alt="PRO Compression"></a>
+    <img src="https://placekitten.com/g/2000/1800" alt="">
+</section>
 
-                        <div id="miniSearch">
-                            <span class="miniSearch"><i class="fa fa-search"></i></span>
-                        </div>
-                    </div>
-                    <div class="PageMenu col-md-5 col-sm-5">
-                       <div class="CategoryList" id="SideCategoryList">
-                            <h3>Categories</h3>
-                            <div class="BlockContent">
-                                <div class="SideCategoryListFlyout menuwrap">
-                                    <ul class="sf-menu sf-horizontal sf-js-enabled">
-<li><a href="http://procompression.com/shop/" class="hasSub sf-with-ul">Shop<span class="sf-sub-indicator"> »</span></a><ul style="display: none; visibility: hidden;">
-<li><a href="http://procompression.com/compression-socks/" class="hasSub sf-with-ul">Compression Socks<span class="sf-sub-indicator"> »</span></a><ul style="display: none; visibility: hidden;">
-<li><a href="http://procompression.com/over-the-calf/">Over-the-Calf</a></li>
-<li><a href="http://procompression.com/mid/">Mid</a></li>
-<li><a href="http://procompression.com/low/">Low</a></li>
+<section>
+    <h1>HTML Ipsum Presents</h1>
 
-</ul>
-</li>
-<li><a href="http://procompression.com/compression-sleeves/" class="hasSub sf-with-ul">Compression Sleeves<span class="sf-sub-indicator"> »</span></a><ul style="display: none; visibility: hidden;">
-<li><a href="http://procompression.com/marathon-calf-sleeves/">Calf Sleeves</a></li>
-<li><a href="http://procompression.com/arm-sleeves/">Arm Sleeves</a></li>
+    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
 
-</ul>
-</li>
-<li><a href="http://procompression.com/compression-tights/">Compression Tights</a></li>
-<li><a href="http://procompression.com/special-collections/" class="hasSub sf-with-ul">Special Collections<span class="sf-sub-indicator"> »</span></a><ul style="display: none; visibility: hidden;">
-<li><a href="http://procompression.com/som/">Sock of the Month</a></li>
-<li><a href="http://procompression.com/pc-lifestyle/">PC Lifestyle</a></li>
+    <h2>Header Level 2</h2>
 
-</ul>
-</li>
+    <ol>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ol>
 
-</ul>
-</li>
+    <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
 
-</ul>
+    <h3>Header Level 3</h3>
 
-                                    
-                 <ul class="pages-menu sf-menu sf-horizontal sf-js-enabled">
-                        <li class="HasSubMenu">
-        <a href="#" class="hasSub sf-with-ul">About<span class="sf-sub-indicator"> »</span></a>
-        <ul style="display: none; visibility: hidden;">
-	<li><a href="http://procompression.com/compression-technology/">Compression Technology</a></li><li><a href="http://procompression.com/why-pro-compression/">Why PRO Compression</a></li><li><a href="http://procompression.com/getting-the-right-fit/">Getting the Right Fit</a></li><li><a href="http://procompression.com/contact-us/">Contact Us</a></li>
-</ul>
-    </li>    <li class=" ">
-        <a href="http://procompression.com/blog/">Blog</a>
-        
-    </li>
-                  </ul>
+    <ul>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ul>
 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="toggle-search">
-                        <div id="SearchForm_mini" class="cf">
-    <form action="https://procompression.com/search.php" method="get" onsubmit="return check_small_search_form()">
-        <label for="search_query">Search</label>
-        <input type="text" name="search_query" id="search_query_mini" class="Textbox autobox default" value="Search">        
-        <button class="Button" type="submit" name="Search"><span class="fa fa-search">&nbsp;</span></button>
-    </form>
-</div>
-                    </div>
-                    <div class="header-secondary col-md-4 col-sm-4">
-                        <div id="SearchForm" class="cf">
-    <form action="https://procompression.com/search.php" method="get" onsubmit="return check_small_search_form()">
-        <label for="search_query">Search</label>
-        <input type="text" name="search_query" id="search_query" class="Textbox autobox default" value="Search" autocomplete="off">        
-        <button class="Button" type="submit" name="Search"><span class="fa fa-search">&nbsp;</span></button>
-    </form>
-</div>
+    <pre><code>
+    #header h1 a { 
+        display: block; 
+        width: 300px; 
+        height: 80px; 
+    }
+    </code></pre>
 
-<script type="text/javascript">
-    var QuickSearchAlignment = 'right';
-    var QuickSearchWidth = '390px';
-    lang.EmptySmallSearch = "You forgot to enter some search keywords.";
-    // uniform() is deprecated in Blueprint theme; remove binding below when removing uniform
-    $(document).ajaxComplete(function() {
-        $('input[type=checkbox], select').not('.UniApplied').uniform();
-    });
-</script>
-                    </div>
-                    <div id="cart-amount">
-                        <a href="http://procompression.com/cart.php" class="Cart"><span class="bag-handle"></span><span class="total">&nbsp;</span></a>
-                    </div>
-                </div>
-            </div><!-- end container -->
-        </div>
-        
-    </div>
-    <script>
-        $('.miniSearch').click(function(){
-            if(!$(this).hasClass('open')){
-                $(this).addClass('open').find(".fa").addClass('fa-times').removeClass('fa-search');
-                $('.toggle-search').slideDown('300');
-            } else {
-                $(this).removeClass('open').find(".fa").removeClass('fa-times').addClass('fa-search');
-                $('.toggle-search').slideUp('200');
-            }
-        })
-        
-    </script>
-</div>
-            <script type="text/javascript" src="https://cdn6.bigcommerce.com/r-6ad23a11c9c6076b631254938ff31f73dbbd04e8/javascript/jquery/plugins/jquery.flexslider.js"></script>
-<script type="text/javascript">
-    $(window).load(function() {
-        $('.slide-show').flexslider({
-            slideshowSpeed: $('.slide-show').attr('data-swap-frequency') * 1000,
-            animation: "fade",
-            pauseOnHover: true,
-            controlNav: true,
-            directionNav: false
-        });
-    });
-</script>
-<div class="slide-show slide-show-render slide-show-render-full flexslider Panel" data-swap-frequency="10" id="HomeSlideShow">
-	<ol class="slides">
-		<li class="slide flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; display: list-item; opacity: 0.682656;">
-	<a href="">
-		<div class="slide-content">
-				<div class="slide-overlay">
-					<h2 class="slide-heading" style="color: #ffffff"></h2>
-					<p class="slide-text" style="color: #ffffff"></p>
-					<div class="slide-button" style="display:none; visibility: hidden"><span class="btn" style="color: #ffffff"></span></div>
-				</div>
-				<span class="slide-image-wrapper">
-					<img class="slide-image" src="https://cdn2.bigcommerce.com/server4900/ac138/product_images/theme_images/homepage_slider_01c.jpg?t=1456334806" alt="">
-				</span>
-		</div>
-	</a>
-</li><li class="slide" style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;">
-	<a href="http://procompression.com/compression-technology">
-		<div class="slide-content">
-				<div class="slide-overlay">
-					<h2 class="slide-heading" style="color: #ffffff"></h2>
-					<p class="slide-text" style="color: #ffffff"></p>
-					<div class="slide-button" style="display:none; visibility: hidden"><span class="btn" style="color: #ffffff"></span></div>
-				</div>
-				<span class="slide-image-wrapper">
-					<img class="slide-image" src="https://cdn2.bigcommerce.com/server4900/ac138/product_images/theme_images/homepage_slider_03b.jpg?t=1456334806" alt="">
-				</span>
-		</div>
-	</a>
-</li><li class="slide" style="width: 100%; float: left; margin-right: -100%; position: relative; display: list-item; opacity: 0.317344;">
-	<a href="">
-		<div class="slide-content">
-				<div class="slide-overlay">
-					<h2 class="slide-heading" style="color: #ffffff"></h2>
-					<p class="slide-text" style="color: #ffffff"></p>
-					<div class="slide-button" style="display:none; visibility: hidden"><span class="btn" style="color: #ffffff"></span></div>
-				</div>
-				<span class="slide-image-wrapper">
-					<img class="slide-image" src="https://cdn2.bigcommerce.com/server4900/ac138/product_images/theme_images/homepage_slider_04_1.jpg?t=1456334806" alt="">
-				</span>
-		</div>
-	</a>
-</li>
-	</ol>
-<ol class="flex-control-nav flex-control-paging"><li><a class="flex-active">1</a></li><li><a class="">2</a></li><li><a class="">3</a></li></ol></div>
-<!-- //slide-show -->
-            <div class="main container">
-                <div class="inner">
-                    
-                    <div class="Content Widest" id="LayoutColumn1">
-                        <div class="Block BlockContent banner_home_page_top"><div class="col-md-6 col-sm-12"><a href="https://procompression.com/compression-essentials/"><img class="__mce_add_custom__" title="sub-cat-imgs-essentials-1-.jpg" src="https://cdn2.bigcommerce.com/server4900/ac138/product_images/uploaded_images/sub-cat-imgs-essentials-1-.jpg?t=1456418576" alt="sub-cat-imgs-essentials-1-.jpg" width="828" height="406"></a></div>
-<div class="col-md-6 col-sm-12"><a title="Neon Green PC Racer Socks" href="https://procompression.com/pc-racer-neon-green/"><img class="__mce_add_custom__" title="sub-cat-imgs-electric-1-.jpg" src="https://cdn2.bigcommerce.com/server4900/ac138/product_images/uploaded_images/sub-cat-imgs-electric-1-.jpg?t=1456334187" alt="sub-cat-imgs-electric-1-.jpg" width="828" height="406"></a></div></div>
-                        
-                        <div class="Conntectwopanel">
-            <div id="ProductTabList" class="Main_inner">
-                  <div class="ProductTabList_inner">
-                    <ul id="tabs">
-                        <li class="active Tablist Tablist1"><a href="#Tablist1">Featured</a></li>
-                        <li class="lasttab Tablist Tablist2"><a href="#Tablist2">Top Sellers</a></li>
-                          </ul>
-                  </div>
-                 
-                  <div class="Productinner">
-                        <div class="ProductTabList_innerlist">
-                            <div id="Tablist1" class="Tablist11" style="display: block; "><div class="Block FeaturedProducts Moveable Panel" id="HomeFeaturedProducts" style="display:">
-    <div class="BlockContent">
-        <ul class="ProductList row">
-            <li class="Odd col-md-3 col-sm-4" style="min-height: 335px;">
-    <div id="img_47" class="ProductImage" data-product="47">
-        <a href="http://procompression.com/marathon-black/" style="height: 250px;"><img src="https://cdn2.bigcommerce.com/server4900/ac138/products/47/images/787/mblk__69568.1424871318.190.250.jpg?c=2" alt="Marathon, Black"></a>
-    </div>
-    <div class="ProductDetails" style="min-height: 46px;">
-        <div class="ProductVisibleDetails">
-            <a id="link_47" data-href="http://procompression.com/marathon-black/" href="http://procompression.com/marathon-black/" class="pname">Marathon, Black</a>
-            <em class="p-price">$50.00</em>
-        </div>
-        <div class="itemlist" style="display: none;">
-           <div class="listimage">
-                <div class="QuickView" data-product="47"></div>
-            </div>
-           <div class="ProductActionAdd" style="display:;">
-                <a href="http://procompression.com/marathon-black/" class="btn icon-Choose Options" title="Choose Options">View Product</a>
-            </div>
-        </div>
-    </div>  
-</li><li class="Even col-md-3 col-sm-4" style="min-height: 335px;">
-    <div id="img_113" class="ProductImage" data-product="113">
-        <a href="http://procompression.com/calf-sleeves-black/" style="height: 250px;"><img src="https://cdn2.bigcommerce.com/server4900/ac138/products/113/images/791/csblk__99314.1424905349.190.250.jpg?c=2" alt="Calf Sleeves, Black"></a>
-    </div>
-    <div class="ProductDetails" style="min-height: 46px;">
-        <div class="ProductVisibleDetails">
-            <a id="link_113" data-href="http://procompression.com/calf-sleeves-black/" href="http://procompression.com/calf-sleeves-black/" class="pname">Calf Sleeves, Black</a>
-            <em class="p-price">$45.00</em>
-        </div>
-        <div class="itemlist" style="display: none;">
-           <div class="listimage">
-                <div class="QuickView" data-product="113"></div>
-            </div>
-           <div class="ProductActionAdd" style="display:;">
-                <a href="http://procompression.com/calf-sleeves-black/" class="btn icon-Choose Options" title="Choose Options">View Product</a>
-            </div>
-        </div>
-    </div>  
-</li><li class="Odd col-md-3 col-sm-4" style="min-height: 335px;">
-    <div id="img_201" class="ProductImage" data-product="201">
-        <a href="http://procompression.com/marathon-lavender/" style="height: 250px;"><img src="https://cdn2.bigcommerce.com/server4900/ac138/products/201/images/799/mlav__58884.1425303139.190.250.jpg?c=2" alt="Marathon, Lavender"></a>
-    </div>
-    <div class="ProductDetails" style="min-height: 64px;">
-        <div class="ProductVisibleDetails">
-            <a id="link_201" data-href="http://procompression.com/marathon-lavender/" href="http://procompression.com/marathon-lavender/" class="pname">Marathon, Lavender</a>
-            <em class="p-price">$50.00</em>
-        </div>
-        <div class="itemlist" style="display: none;">
-           <div class="listimage">
-                <div class="QuickView" data-product="201"></div>
-            </div>
-           <div class="ProductActionAdd" style="display:;">
-                <a href="http://procompression.com/marathon-lavender/" class="btn icon-Choose Options" title="Choose Options">View Product</a>
-            </div>
-        </div>
-    </div>  
-</li><li class="Even col-md-3 col-sm-4" style="min-height: 335px;">
-    <div id="img_264" class="ProductImage" data-product="264">
-        <a href="http://procompression.com/marathon-multicolor-stripe/" style="height: 250px;"><img src="https://cdn2.bigcommerce.com/server4900/ac138/products/264/images/950/mmulticolor__67676.1432911197.190.250.jpg?c=2" alt="Multicolor Stripe Marathon"></a>
-    </div>
-    <div class="ProductDetails" style="min-height: 64px;">
-        <div class="ProductVisibleDetails">
-            <a id="link_264" data-href="http://procompression.com/marathon-multicolor-stripe/" href="http://procompression.com/marathon-multicolor-stripe/" class="pname">Marathon, Multicolor Stripe</a>
-            <em class="p-price">$50.00</em>
-        </div>
-        <div class="itemlist" style="display: none;">
-           <div class="listimage">
-                <div class="QuickView" data-product="264"></div>
-            </div>
-           <div class="ProductActionAdd" style="display:;">
-                <a href="http://procompression.com/marathon-multicolor-stripe/" class="btn icon-Choose Options" title="Choose Options">View Product</a>
-            </div>
-        </div>
-    </div>  
-</li><li class="Odd col-md-3 col-sm-4" style="min-height: 335px;">
-    <div id="img_49" class="ProductImage" data-product="49">
-        <a href="http://procompression.com/marathon-pink/" style="height: 250px;"><img src="https://cdn2.bigcommerce.com/server4900/ac138/products/49/images/818/mpink__29445.1425727701.190.250.jpg?c=2" alt="Marathon, Pink"></a>
-    </div>
-    <div class="ProductDetails" style="min-height: 46px;">
-        <div class="ProductVisibleDetails">
-            <a id="link_49" data-href="http://procompression.com/marathon-pink/" href="http://procompression.com/marathon-pink/" class="pname">Marathon, Pink</a>
-            <em class="p-price">$50.00</em>
-        </div>
-        <div class="itemlist" style="display: none;">
-           <div class="listimage">
-                <div class="QuickView" data-product="49"></div>
-            </div>
-           <div class="ProductActionAdd" style="display:;">
-                <a href="http://procompression.com/marathon-pink/" class="btn icon-Choose Options" title="Choose Options">View Product</a>
-            </div>
-        </div>
-    </div>  
-</li><li class="Even col-md-3 col-sm-4" style="min-height: 335px;">
-    <div id="img_50" class="ProductImage" data-product="50">
-        <a href="http://procompression.com/marathon-lime/" style="height: 250px;"><img src="https://cdn2.bigcommerce.com/server4900/ac138/products/50/images/870/mlime__30063.1426108595.190.250.jpg?c=2" alt="Marathon, Lime"></a>
-    </div>
-    <div class="ProductDetails" style="min-height: 46px;">
-        <div class="ProductVisibleDetails">
-            <a id="link_50" data-href="http://procompression.com/marathon-lime/" href="http://procompression.com/marathon-lime/" class="pname">Marathon, Lime</a>
-            <em class="p-price">$50.00</em>
-        </div>
-        <div class="itemlist" style="display: none;">
-           <div class="listimage">
-                <div class="QuickView" data-product="50"></div>
-            </div>
-           <div class="ProductActionAdd" style="display:;">
-                <a href="http://procompression.com/marathon-lime/" class="btn icon-Choose Options" title="Choose Options">View Product</a>
-            </div>
-        </div>
-    </div>  
-</li><li class="Odd col-md-3 col-sm-4" style="min-height: 335px;">
-    <div id="img_194" class="ProductImage" data-product="194">
-        <a href="http://procompression.com/marathon-black-on-black/" style="height: 250px;"><img src="https://cdn2.bigcommerce.com/server4900/ac138/products/194/images/794/mbob__31590.1425300757.190.250.jpg?c=2" alt="Marathon, Black on Black"></a>
-    </div>
-    <div class="ProductDetails" style="min-height: 64px;">
-        <div class="ProductVisibleDetails">
-            <a id="link_194" data-href="http://procompression.com/marathon-black-on-black/" href="http://procompression.com/marathon-black-on-black/" class="pname">Marathon, Black on Black</a>
-            <em class="p-price">$50.00</em>
-        </div>
-        <div class="itemlist" style="display: none;">
-           <div class="listimage">
-                <div class="QuickView" data-product="194"></div>
-            </div>
-           <div class="ProductActionAdd" style="display:;">
-                <a href="http://procompression.com/marathon-black-on-black/" class="btn icon-Choose Options" title="Choose Options">View Product</a>
-            </div>
-        </div>
-    </div>  
-</li><li class="Even col-md-3 col-sm-4" style="min-height: 335px;">
-    <div id="img_281" class="ProductImage" data-product="281">
-        <a href="http://procompression.com/marathon-elite-pink/" style="height: 250px;"><img src="https://cdn2.bigcommerce.com/server4900/ac138/products/281/images/1043/mepnk__44588.1454591867.190.250.jpg?c=2" alt="Marathon Elite, Pink"></a>
-    </div>
-    <div class="ProductDetails" style="min-height: 64px;">
-        <div class="ProductVisibleDetails">
-            <a id="link_281" data-href="http://procompression.com/marathon-elite-pink/" href="http://procompression.com/marathon-elite-pink/" class="pname">Marathon Elite, Pink</a>
-            <em class="p-price">$55.00</em>
-        </div>
-        <div class="itemlist" style="display: none;">
-           <div class="listimage">
-                <div class="QuickView" data-product="281"></div>
-            </div>
-           <div class="ProductActionAdd" style="display:;">
-                <a href="http://procompression.com/marathon-elite-pink/" class="btn icon-Choose Options" title="Choose Options">View Product</a>
-            </div>
-        </div>
-    </div>  
-</li>
-        </ul>
-        <div class="clear"></div>
-    </div>
-    <div class="clear"></div>
-</div>
+    <img src="https://placekitten.com/g/2000/1800" alt="">
+</section>
 
+<section>
+    <h1>HTML Ipsum Presents</h1>
 
-</div>
-                            <div id="Tablist2" class="Tablist11" style="display: none; "><div class="Block TopSellers Moveable Panel" id="SideTopSellers" style="display:">
-    <h2>Current Top Sellers</h2>
-    <div class="BlockContent">
-        <ul class="ProductList">
-            <li class="Odd col-md-3 col-sm-4" style="min-height: 0px;">
-    <div id="img_47" class="ProductImage" data-product="47">
-        <a href="http://procompression.com/marathon-black/" style="height: 250px;"><img src="https://cdn2.bigcommerce.com/server4900/ac138/products/47/images/787/mblk__69568.1424871318.190.250.jpg?c=2" alt="Marathon, Black"></a>
-    </div>
-    <div class="ProductDetails" style="min-height: 0px;">
-        <div class="ProductVisibleDetails">
-            <a id="link_47" data-href="http://procompression.com/marathon-black/" href="http://procompression.com/marathon-black/" class="pname">Marathon, Black</a>
-            <em class="p-price">$50.00</em>
-        </div>
-        <div class="itemlist" style="display: none;">
-           <div class="listimage">
-                <div class="QuickView" data-product="47"></div>
-            </div>
-           <div class="ProductActionAdd" style="display:;">
-                <a href="http://procompression.com/marathon-black/" class="btn icon-Choose Options" title="Choose Options">View Product</a>
-            </div>
-        </div>
-    </div>  
-</li><li class="Even col-md-3 col-sm-4" style="min-height: 0px;">
-    <div id="img_49" class="ProductImage" data-product="49">
-        <a href="http://procompression.com/marathon-pink/" style="height: 250px;"><img src="https://cdn2.bigcommerce.com/server4900/ac138/products/49/images/818/mpink__29445.1425727701.190.250.jpg?c=2" alt="Marathon, Pink"></a>
-    </div>
-    <div class="ProductDetails" style="min-height: 0px;">
-        <div class="ProductVisibleDetails">
-            <a id="link_49" data-href="http://procompression.com/marathon-pink/" href="http://procompression.com/marathon-pink/" class="pname">Marathon, Pink</a>
-            <em class="p-price">$50.00</em>
-        </div>
-        <div class="itemlist" style="display: none;">
-           <div class="listimage">
-                <div class="QuickView" data-product="49"></div>
-            </div>
-           <div class="ProductActionAdd" style="display:;">
-                <a href="http://procompression.com/marathon-pink/" class="btn icon-Choose Options" title="Choose Options">View Product</a>
-            </div>
-        </div>
-    </div>  
-</li><li class="Odd col-md-3 col-sm-4" style="min-height: 0px;">
-    <div id="img_57" class="ProductImage" data-product="57">
-        <a href="http://procompression.com/marathon-purple/" style="height: 250px;"><img src="https://cdn2.bigcommerce.com/server4900/ac138/products/57/images/813/mpurple__25678.1425560034.190.250.jpg?c=2" alt="Marathon, Purple"></a>
-    </div>
-    <div class="ProductDetails" style="min-height: 0px;">
-        <div class="ProductVisibleDetails">
-            <a id="link_57" data-href="http://procompression.com/marathon-purple/" href="http://procompression.com/marathon-purple/" class="pname">Marathon, Purple</a>
-            <em class="p-price">$50.00</em>
-        </div>
-        <div class="itemlist" style="display: none;">
-           <div class="listimage">
-                <div class="QuickView" data-product="57"></div>
-            </div>
-           <div class="ProductActionAdd" style="display:;">
-                <a href="http://procompression.com/marathon-purple/" class="btn icon-Choose Options" title="Choose Options">View Product</a>
-            </div>
-        </div>
-    </div>  
-</li><li class="Even col-md-3 col-sm-4" style="min-height: 0px;">
-    <div id="img_48" class="ProductImage" data-product="48">
-        <a href="http://procompression.com/marathon-white/" style="height: 250px;"><img src="https://cdn2.bigcommerce.com/server4900/ac138/products/48/images/804/mwht__73724.1425436708.190.250.jpg?c=2" alt="Marathon, White"></a>
-    </div>
-    <div class="ProductDetails" style="min-height: 0px;">
-        <div class="ProductVisibleDetails">
-            <a id="link_48" data-href="http://procompression.com/marathon-white/" href="http://procompression.com/marathon-white/" class="pname">Marathon, White</a>
-            <em class="p-price">$50.00</em>
-        </div>
-        <div class="itemlist" style="display: none;">
-           <div class="listimage">
-                <div class="QuickView" data-product="48"></div>
-            </div>
-           <div class="ProductActionAdd" style="display:;">
-                <a href="http://procompression.com/marathon-white/" class="btn icon-Choose Options" title="Choose Options">View Product</a>
-            </div>
-        </div>
-    </div>  
-</li><li class="Odd col-md-3 col-sm-4" style="min-height: 0px;">
-    <div id="img_113" class="ProductImage" data-product="113">
-        <a href="http://procompression.com/calf-sleeves-black/" style="height: 250px;"><img src="https://cdn2.bigcommerce.com/server4900/ac138/products/113/images/791/csblk__99314.1424905349.190.250.jpg?c=2" alt="Calf Sleeves, Black"></a>
-    </div>
-    <div class="ProductDetails" style="min-height: 0px;">
-        <div class="ProductVisibleDetails">
-            <a id="link_113" data-href="http://procompression.com/calf-sleeves-black/" href="http://procompression.com/calf-sleeves-black/" class="pname">Calf Sleeves, Black</a>
-            <em class="p-price">$45.00</em>
-        </div>
-        <div class="itemlist" style="display: none;">
-           <div class="listimage">
-                <div class="QuickView" data-product="113"></div>
-            </div>
-           <div class="ProductActionAdd" style="display:;">
-                <a href="http://procompression.com/calf-sleeves-black/" class="btn icon-Choose Options" title="Choose Options">View Product</a>
-            </div>
-        </div>
-    </div>  
-</li><li class="Even col-md-3 col-sm-4" style="min-height: 0px;">
-    <div id="img_139" class="ProductImage" data-product="139">
-        <a href="http://procompression.com/marathon-royal-blue/" style="height: 250px;"><img src="https://cdn2.bigcommerce.com/server4900/ac138/products/139/images/810/mroyalblu__35233.1425559512.190.250.jpg?c=2" alt="Marathon, Royal Blue"></a>
-    </div>
-    <div class="ProductDetails" style="min-height: 0px;">
-        <div class="ProductVisibleDetails">
-            <a id="link_139" data-href="http://procompression.com/marathon-royal-blue/" href="http://procompression.com/marathon-royal-blue/" class="pname">Marathon, Royal Blue</a>
-            <em class="p-price">$50.00</em>
-        </div>
-        <div class="itemlist" style="display: none;">
-           <div class="listimage">
-                <div class="QuickView" data-product="139"></div>
-            </div>
-           <div class="ProductActionAdd" style="display:;">
-                <a href="http://procompression.com/marathon-royal-blue/" class="btn icon-Choose Options" title="Choose Options">View Product</a>
-            </div>
-        </div>
-    </div>  
-</li><li class="Odd col-md-3 col-sm-4" style="min-height: 0px;">
-    <div id="img_50" class="ProductImage" data-product="50">
-        <a href="http://procompression.com/marathon-lime/" style="height: 250px;"><img src="https://cdn2.bigcommerce.com/server4900/ac138/products/50/images/870/mlime__30063.1426108595.190.250.jpg?c=2" alt="Marathon, Lime"></a>
-    </div>
-    <div class="ProductDetails" style="min-height: 0px;">
-        <div class="ProductVisibleDetails">
-            <a id="link_50" data-href="http://procompression.com/marathon-lime/" href="http://procompression.com/marathon-lime/" class="pname">Marathon, Lime</a>
-            <em class="p-price">$50.00</em>
-        </div>
-        <div class="itemlist" style="display: none;">
-           <div class="listimage">
-                <div class="QuickView" data-product="50"></div>
-            </div>
-           <div class="ProductActionAdd" style="display:;">
-                <a href="http://procompression.com/marathon-lime/" class="btn icon-Choose Options" title="Choose Options">View Product</a>
-            </div>
-        </div>
-    </div>  
-</li><li class="Even col-md-3 col-sm-4" style="min-height: 0px;">
-    <div id="img_138" class="ProductImage" data-product="138">
-        <a href="http://procompression.com/marathon-powder-blue/" style="height: 250px;"><img src="https://cdn2.bigcommerce.com/server4900/ac138/products/138/images/820/mpblu__95497.1425728463.190.250.jpg?c=2" alt="Marathon, Powder Blue"></a>
-    </div>
-    <div class="ProductDetails" style="min-height: 0px;">
-        <div class="ProductVisibleDetails">
-            <a id="link_138" data-href="http://procompression.com/marathon-powder-blue/" href="http://procompression.com/marathon-powder-blue/" class="pname">Marathon, Powder Blue</a>
-            <em class="p-price">$50.00</em>
-        </div>
-        <div class="itemlist" style="display: none;">
-           <div class="listimage">
-                <div class="QuickView" data-product="138"></div>
-            </div>
-           <div class="ProductActionAdd" style="display:;">
-                <a href="http://procompression.com/marathon-powder-blue/" class="btn icon-Choose Options" title="Choose Options">View Product</a>
-            </div>
-        </div>
-    </div>  
-</li>
-        </ul>
-    </div>
-</div></div>
-            
-                    
-                        </div>
-                  </div>
-            </div>
-            
-</div> 
-                  
-                 
-<script>
+    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
 
-      $(document).ready(function() {            
-        $("#tabs li").click(function() {
-          $("#tabs li").removeClass('active');
-          $(this).addClass("active");
-          $(".Tablist11").hide();
-            var selected_tab = $(this).find("a").attr("href");
-          $(selected_tab).fadeIn();
-          return false;
-        });
-      });
-</script>
+    <h2>Header Level 2</h2>
 
+    <ol>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ol>
 
+    <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
 
+    <h3>Header Level 3</h3>
 
+    <ul>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ul>
 
+    <pre><code>
+    #header h1 a { 
+        display: block; 
+        width: 300px; 
+        height: 80px; 
+    }
+    </code></pre>
 
+    <img src="https://placekitten.com/g/2000/1800" alt="">
+</section>
 
+<section>
+    <h1>HTML Ipsum Presents</h1>
 
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="home-insta-feed clear">
-                <div class="container">
-                    <div class="socialphotos-widget-root slpht-clearfix" data-id="547782" id="socialphotos-widget-1" data-containerid="1">
+    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
 
-<!-- Socialphotos app https://socialphotosapp.com -->
-<div id="socialphotos-gallery-547782" style="float: none !important;"><p class="spw-text">Share the Love</p>
+    <h2>Header Level 2</h2>
 
-  <p class="spw-text"><a style="color: #428BCA; text-decoration: underline; cursor: pointer;" class="slpht-upload" data-id="547782"></a></p>
+    <ol>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ol>
 
+    <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
 
-<div class="slpht-carousel slpht-clearfix">
-  <!-- Photos roll -->
-  <div class="slpht-carousel-inner">
-    
-      <div class="spw-row" id="sp_wll_1" style="height: auto;"><ul class="spw-thumbnails"><li class="spw-thumbnail">
-  <!-- class "spw-lazy" - delays loading of images in long web pages -->
-  
-<div class="spw-thumbnail-overlay"></div>
-<div class="socialphotos-view" style="background-image:url('https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12729548_1389701094389475_2024312710_n.jpg?ig_cache_key=MTE5NTAyNjQ2MDYyMjQ4MTY5NA%3D%3D.2');" data-id="9507559" data-containerid="1"></div></li><li class="spw-thumbnail">
-  <!-- class "spw-lazy" - delays loading of images in long web pages -->
-  
-<div class="spw-thumbnail-overlay"></div>
-<div class="socialphotos-view" style="background-image:url('https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12783869_450927091785226_303065050_n.jpg?ig_cache_key=MTE5MzU1NzQ0MzA5MzIyNzYwMg%3D%3D.2');" data-id="9507061" data-containerid="1"></div></li><li class="spw-thumbnail">
-  <!-- class "spw-lazy" - delays loading of images in long web pages -->
-  
-<div class="spw-thumbnail-overlay"></div>
-<div class="socialphotos-view" style="background-image:url('https://scontent.cdninstagram.com/t51.2885-15/sh0.08/e35/p640x640/12797674_797360440396823_1772490081_n.jpg?ig_cache_key=MTE5MzQyNDcxMDczNjA0NjM0Ng%3D%3D.2');" data-id="9507060" data-containerid="1"></div></li><li class="spw-thumbnail">
-  <!-- class "spw-lazy" - delays loading of images in long web pages -->
-  
-<div class="spw-thumbnail-overlay"></div>
-<div class="socialphotos-view" style="background-image:url('https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12751115_332977373539363_859909407_n.jpg?ig_cache_key=MTE5Mzc3MDMzMjUxNzMyOTAwNQ%3D%3D.2');" data-id="9503873" data-containerid="1"></div></li><li class="spw-thumbnail">
-  <!-- class "spw-lazy" - delays loading of images in long web pages -->
-  
-<div class="spw-thumbnail-overlay"></div>
-<div class="socialphotos-view" style="background-image:url('https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12750059_779973808774616_2088942745_n.jpg?ig_cache_key=MTE5MjQzMzQ3NTY3MDAxMDAwMw%3D%3D.2');" data-id="9502542" data-containerid="1"></div></li><li class="spw-thumbnail">
-  <!-- class "spw-lazy" - delays loading of images in long web pages -->
-  
-<div class="spw-thumbnail-overlay"></div>
-<div class="socialphotos-view" style="background-image:url('https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12749828_239045513099164_1348199107_n.jpg?ig_cache_key=MTE4ODQxNjEwMDY0MTU2NTU0OQ%3D%3D.2');" data-id="9502094" data-containerid="1"></div></li><li class="spw-thumbnail">
-  <!-- class "spw-lazy" - delays loading of images in long web pages -->
-  
-<div class="spw-thumbnail-overlay"></div>
-<div class="socialphotos-view" style="background-image:url('https://scontent.cdninstagram.com/t51.2885-15/sh0.08/e35/p640x640/12716876_1583386271986826_1170069782_n.jpg?ig_cache_key=MTE5MTM2MDUyNDI3OTM3NjUzNg%3D%3D.2');" data-id="9502089" data-containerid="1"></div></li><li class="spw-thumbnail">
-  <!-- class "spw-lazy" - delays loading of images in long web pages -->
-  
-<div class="spw-thumbnail-overlay"></div>
-<div class="socialphotos-view" style="background-image:url('https://scontent.cdninstagram.com/t51.2885-15/sh0.08/e35/p640x640/12784116_1974416339450333_358981116_n.jpg?ig_cache_key=MTE5MDY0ODM5Mjc0NzM0NjUyOQ%3D%3D.2');" data-id="9502090" data-containerid="1"></div></li><li class="spw-thumbnail">
-  <!-- class "spw-lazy" - delays loading of images in long web pages -->
-  
-<div class="spw-thumbnail-overlay"></div>
-<div class="socialphotos-view" style="background-image:url('https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12677166_936069469805876_994030586_n.jpg?ig_cache_key=MTE4OTk4Njk1Nzc4NDU0MjEyMQ%3D%3D.2');" data-id="9502091" data-containerid="1"></div></li><li class="spw-thumbnail">
-  <!-- class "spw-lazy" - delays loading of images in long web pages -->
-  
-<div class="spw-thumbnail-overlay"></div>
-<div class="socialphotos-view" style="background-image:url('https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12729575_1677058009218711_1563519190_n.jpg?ig_cache_key=MTE4OTM1NzUwODA2Mzk0NjgzNw%3D%3D.2');" data-id="9502092" data-containerid="1"></div></li><li class="spw-thumbnail">
-  <!-- class "spw-lazy" - delays loading of images in long web pages -->
-  
-<div class="spw-thumbnail-overlay"></div>
-<div class="socialphotos-view" style="background-image:url('https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12728507_958661220876845_268186260_n.jpg?ig_cache_key=MTE4ODY4MzE0MTUwODI2MjY4NQ%3D%3D.2');" data-id="9502093" data-containerid="1"></div></li><li class="spw-thumbnail">
-  <!-- class "spw-lazy" - delays loading of images in long web pages -->
-  
-<div class="spw-thumbnail-overlay"></div>
-<div class="socialphotos-view" style="background-image:url('https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12750371_951178911630750_1951017635_n.jpg?ig_cache_key=MTE4Mzg1ODQ2OTY2MjkxMTIwNg%3D%3D.2');" data-id="9502110" data-containerid="1"></div></li><li class="spw-thumbnail">
-  <!-- class "spw-lazy" - delays loading of images in long web pages -->
-  
-<div class="spw-thumbnail-overlay"></div>
-<div class="socialphotos-view" style="background-image:url('https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12728656_1745924682296937_1676390693_n.jpg?ig_cache_key=MTE4NzQzMzMwNzEzMjQyMjQxMw%3D%3D.2');" data-id="9502095" data-containerid="1"></div></li><li class="spw-thumbnail">
-  <!-- class "spw-lazy" - delays loading of images in long web pages -->
-  
-<div class="spw-thumbnail-overlay"></div>
-<div class="socialphotos-view" style="background-image:url('https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/10608160_1681187908807881_912350068_n.jpg?ig_cache_key=MTE4Njk2NTM0MTI4NjcyMTU0OA%3D%3D.2');" data-id="9502097" data-containerid="1"></div></li><li class="spw-thumbnail">
-  <!-- class "spw-lazy" - delays loading of images in long web pages -->
-  
-<div class="spw-thumbnail-overlay"></div>
-<div class="socialphotos-view" style="background-image:url('https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/1725474_527007900815270_186625899_n.jpg?ig_cache_key=MTE4NTU0MDM5NDQ2NzIyNDI4MA%3D%3D.2');" data-id="9502099" data-containerid="1"></div></li></ul></div>
-    
-  </div>
+    <h3>Header Level 3</h3>
 
-  <!-- Left control -->
-  <a class="left slpht-carousel-control spw_prev" id="spw_prev_1" role="button" data-slide="prev" data-containerid="1" style="display: none;">
-    <span class="slpht-glyphicon slpht-glyphicon-chevron-left"></span>
-  </a>
+    <ul>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ul>
 
-  <!-- Right control -->
-  <a class="right slpht-carousel-control spw_next" id="spw_next_1" role="button" data-slide="next" data-containerid="1">
-    <span class="slpht-glyphicon slpht-glyphicon-chevron-right"></span>
-  </a>
-</div>
+    <pre><code>
+    #header h1 a { 
+        display: block; 
+        width: 300px; 
+        height: 80px; 
+    }
+    </code></pre>
 
-<!-- Load more control -->
-<!-- If you consider changing load more colors: edit style attribute below -->
-<style>
-  .slpht-glyphicon.slpht-glyphicon-chevron-down {
-    color: #000000;
-  }
-  .slpht-carousel-load-more:hover .slpht-glyphicon-chevron-down {
-    color: #797979;
-  }
-</style>
+    <img src="https://placekitten.com/g/2000/1800" alt="">
+</section>
 
-<!-- .slpht-carousel-load-more triggers load more logic -->
-<div class="slpht-carousel-load-more" id="spw_load_more_1" data-containerid="1">
-  <!-- You can add your text below between <p> and </p> -->
-  <p class="slpht-load-more-text">  </p>
-  <div class="slpht-load-more-icon slpht-text-center">
-    <span class="slpht-glyphicon slpht-glyphicon-chevron-down"></span>
-  </div>
-</div></div>
+<section>
+    <h1>HTML Ipsum Presents</h1>
 
-</div>
-                </div>
-            </div>
-            
-<div class="footer">
-    <div class="inner">
-        
-<div class="clear newsletter-subscription1" id="SideNewsletterBox1">
-    <div class="container">
-        <div class="col-md-12" id="ninnner">
-                <div class="email_tittle col-lg-5 col-md-12">
-                    
-                    <h4>Sign up for our newsletter</h4>
-                    <p class="small">Be the first to hear about new releases, special offers and more.</p> 
-                </div>
-                <div class="email_box col-lg-7 col-md-12">
-                    
-                    <form action="https://procompression.com/subscribe.php" method="post" id="subscribe_form" class="subscribe_form" name="subscribe_form">
-                        <input type="hidden" name="action" value="subscribe">
-                        <ul>
-                            <!-- <li class="inputForm">
-                                <label for="nl_first_name">Name</label>
-                                <input class="Textbox autobox" value="Enter Your Name" id="nl_first_name" name="nl_first_name" type="text" />
-                            </li> -->
-                            <li class="inputForm">
-                                <label for="nl_email">Email</label>
-                                <input class="Textbox autobox default" value="Enter Email Address" id="nl_email" name="nl_email" type="text">
-                            </li>
-                            <li class="NewsletterButton">
-                                
-                                <input value="Submit" class="btn" type="submit">
-                                
-                            </li>
-                        </ul>  
-                    </form>
-                </div>
-        </div>
-    </div><!-- end container -->
-</div>
-<script type="text/javascript">
-// <!--
-	$('#subscribe_form').submit(function() {
-		if($('#nl_first_name').val() == '') {
-			alert('You forgot to type in your first name.');
-			$('#nl_first_name').focus();
-			return false;
-		}
+    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
 
-		if($('#nl_email').val() == '') {
-			alert('You forgot to type in your email address.');
-			$('#nl_email').focus();
-			return false;
-		}
+    <h2>Header Level 2</h2>
 
-		if($('#nl_email').val().indexOf('@') == -1 || $('#nl_email').val().indexOf('.') == -1) {
-			alert('Please enter a valid email address, such as john@example.com.');
-			$('#nl_email').focus();
-			$('#nl_email').select();
-			return false;
-		}
+    <ol>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ol>
 
-		// Set the action of the form to stop spammers
-		$('#subscribe_form').append("<input type=\"hidden\" name=\"check\" value=\"1\" \/>");
-		return true;
+    <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
 
-	});
-// -->
-</script>
+    <h3>Header Level 3</h3>
 
+    <ul>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ul>
 
-        <div class="clear footer-main">
-            <div class="container">
-                <div class="inner">
-                    <div class="footer-columns row">
-                        <div class="col-lg-4 col-md-6 col-sm-12 footer-links-col"><div class="Oursupport footer-nav-wrap">
+    <pre><code>
+    #header h1 a { 
+        display: block; 
+        width: 300px; 
+        height: 80px; 
+    }
+    </code></pre>
 
-<h4>Customer Service</h4>
-<ul class="footer-quicklinks">
-<li><a href="https://procompression.com/getting-the-right-fit/">Size Charts</a></li>
-<li><a href="https://procompression.com/shipping-returns/">Shipping &amp; Returns</a></li>
-<li><a href="https://procompression.com/giftcertificates.php">Gift Certificates</a></li>
-<li><a href="https://procompression.com/contact-us/">Contact Us</a></li>
-<!-- <li><a href="https://procompression.com/account.php?action=account_details">Account info</a></li> -->
-</ul>
-</div></div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 footer-about footer-social"><div class="footer-social-col">
-		<h4>Stay Connected</h4>
-		<div class="social-icons">
-			<div id="socnet" class="Block SocialConnect Moveable Panel">
-				<ul>
-					<li><a href="https://www.instagram.com/procompression" target="_blank" class="icon-social icon-social-theme icon-instagram" title="Instagram">Instagram</a></li>
-					<li><a href="https://www.facebook.com/procompression" target="_blank" class="icon-social icon-social-theme icon-facebook" title="Facebook">Facebook</a></li>
-					<li><a href="http://www.youtube.com/user/ProCompression" target="_blank" class="icon-social icon-social-theme icon-youtube" title="YouTube">YouTube</a></li>
-					<li><a href="https://twitter.com/procompression" target="_blank" class="icon-social icon-social-theme icon-twitter" title="Twitter">Twitter</a></li>
-					<!-- <li><a href="https://www.pinterest.com/procompression/" target="_blank" class="icon-social icon-social-theme icon-pinterest" title="Pinterest">Pinterest</a></li> -->
-				</ul>
-			</div>
-		</div>
-</div>
+    <img src="https://placekitten.com/g/2000/1800" alt="">
+</section>
 
-</div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 footer-contact-col"><div class="Aboutus">
-<h4>Contact Us</h4>
-    <div class="footer-contact-info">
-    	<span class="footer-address"><i class="fa fa-map-marker"></i> 5939 Darwin Court, Suite 113, Carlsbad, CA 92008</span>
-    	<!-- <span class="footer-phone"><i class="fa fa-phone"></i> <a href="tel:7609311588">(760) 931-1588</a></span> -->
-    	<span class="footer-email"><i class="fa fa-envelope"></i> <a href="mailto:info@procompression.com">info@procompression.com</a></span>
-    </div>
-</div></div>
-                    </div>
-                </div>
-            </div><!-- end container -->
-        </div>
-        <div class="footer-links">
-            <div class="container">
-                <div class="inner">
-                    <p class="row">
-                        <span id="copyrights" class="col-md-12"> Copyright © 2016 PRO Compression.com  |  All Rights Reserved.  |  <a href="https://procompression.com/privacy-policy/">Privacy Policy</a></span>
-                    </p>
-                    
-                </div>
-            </div><!-- end container -->
-        </div>
-    </div>
-    <div id="toTop"><i class="fa fa-angle-up Backtop"></i></div>
-    <script>
-        $(document).ready(function(){
-            setProductThumbHeight();
-        })
-    </script>
-    <script type="text/javascript">
-    $(function() {
-        $(window).scroll(function() {
-            if($(this).scrollTop() >= 400) {
-                $('#toTop').fadeIn();    
-            } else {
-                $('#toTop').fadeOut();
-            }
-        });
-        
-        $('#toTop').click(function() {
-            $('body,html').animate({scrollTop:0},800);
-        });
-    });
-        
-        function getProductImage(e, t) {
-            $.ajax({
-                url: e,
-                success: function (e) {
-                    var a = $(e).find(".ProductThumbImage a").attr("href") || "https://cdn6.bigcommerce.com/r-7d6a638493d37a4bbc33fd4fe15b95d62daf0227/themes/Craze/images/ProductDefault.gif",
-                        s = '<img src="' + a + '" />';
-                    $(t).html(s)
-                },
-                error: function () {}
-            })
-        }
-      
-        $("#SideCartContents .ProductList > li").each(function () {
-            var e = $(this),
-                t = e.find(".product-image"),
-                a = e.find("a").prop("pathname");
-                getProductImage(a, t)
-        });
+<section>
+    <h1>HTML Ipsum Presents</h1>
 
-    </script>
+    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
 
-</div>
+    <h2>Header Level 2</h2>
 
-<!-- Lucky Orange -->
-    <script type="text/javascript">
-window.__lo_site_id = 48212;
+    <ol>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ol>
 
-    (function() {
-        var wa = document.createElement('script'); wa.type = 'text/javascript'; wa.async = true;
-        wa.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://cdn') + '.luckyorange.com/w.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa, s);
-      })();
-    </script>
+    <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
 
+    <h3>Header Level 3</h3>
 
+    <ul>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ul>
 
+    <pre><code>
+    #header h1 a { 
+        display: block; 
+        width: 300px; 
+        height: 80px; 
+    }
+    </code></pre>
 
+    <img src="https://placekitten.com/g/2000/1800" alt="">
+</section>
 
+<section>
+    <h1>HTML Ipsum Presents</h1>
 
+    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
 
+    <h2>Header Level 2</h2>
 
-<script type="text/javascript" src="https://cdn5.bigcommerce.com/r-6ad23a11c9c6076b631254938ff31f73dbbd04e8/javascript/superfish/js/jquery.bgiframe.min.js"></script>
-<script type="text/javascript" src="https://cdn5.bigcommerce.com/r-6ad23a11c9c6076b631254938ff31f73dbbd04e8/javascript/superfish/js/superfish.js"></script>
-<script type="text/javascript">
-    $(function(){
-        if (typeof $.fn.superfish == "function") {
-            $("ul.sf-menu").superfish({
-                delay: 800,
-                dropShadows: false,
-                speed: "fast"
-            })
-            .find("ul")
-            .bgIframe();
-        }
-    })
-</script>
+    <ol>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ol>
 
+    <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
 
-<script type="text/javascript">
-$(document).ready(function() {
-	// attach fast cart event to all 'add to cart' link
-	$(".ProductActionAdd a[href*='cart.php?action=add']").click(function(event) {
-		fastCartAction($(this).attr('href'));
-		return false;
-	});
-});
-</script>
+    <h3>Header Level 3</h3>
 
+    <ul>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ul>
 
+    <pre><code>
+    #header h1 a { 
+        display: block; 
+        width: 300px; 
+        height: 80px; 
+    }
+    </code></pre>
 
+    <img src="https://placekitten.com/g/2000/1800" alt="">
+</section>
 
+<section>
+    <h1>HTML Ipsum Presents</h1>
 
+    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
 
+    <h2>Header Level 2</h2>
 
+    <ol>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ol>
 
-        </div>
+    <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+
+    <h3>Header Level 3</h3>
+
+    <ul>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ul>
+
+    <pre><code>
+    #header h1 a { 
+        display: block; 
+        width: 300px; 
+        height: 80px; 
+    }
+    </code></pre>
+
+    <img src="https://placekitten.com/g/2000/1800" alt="">
+</section>
+
+<section>
+    <h1>HTML Ipsum Presents</h1>
+
+    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+
+    <h2>Header Level 2</h2>
+
+    <ol>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ol>
+
+    <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+
+    <h3>Header Level 3</h3>
+
+    <ul>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ul>
+
+    <pre><code>
+    #header h1 a { 
+        display: block; 
+        width: 300px; 
+        height: 80px; 
+    }
+    </code></pre>
+
+    <img src="https://placekitten.com/g/2000/1800" alt="">
+</section>
+
+<section>
+    <h1>HTML Ipsum Presents</h1>
+
+    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+
+    <h2>Header Level 2</h2>
+
+    <ol>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ol>
+
+    <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+
+    <h3>Header Level 3</h3>
+
+    <ul>
+       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+       <li>Aliquam tincidunt mauris eu risus.</li>
+    </ul>
+
+    <pre><code>
+    #header h1 a { 
+        display: block; 
+        width: 300px; 
+        height: 80px; 
+    }
+    </code></pre>
+
+    <img src="https://placekitten.com/g/2000/1800" alt="">
+</section>
 
 </body>
 </html>
