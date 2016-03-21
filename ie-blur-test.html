@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>test</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+	<style>
+		img { max-width: 100%; }
+		*, *:before, *:after {
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		header, nav, section, article, aside, footer {
+			display:block;
+		}
+		@media only screen {
+			body { color: blue; }
+		}
+
+		html,
+		body {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+		}
+
+		.wrapper {
+			position: relative;
+			z-index: 115;
+			width: 100%;
+			min-height: calc(100% - 40px);
+			overflow: hidden;
+		}
+
+		.wrapper_inner {
+			position: relative;
+			z-index: 115;
+			width: 950px;
+			margin: 0 auto;
+			overflow: visible;
+		}
+
+		.wrapper_menu {
+			position: fixed;
+			left: -1000px;
+			width: 100px;
+			height: 100%;
+			z-index: 101;
+			background: black;
+			visibility: hidden;
+			transition: left .2s ease-out;
+			background: linear-gradient(to left,rgba(255,255,255,1) 85%,rgba(255,255,255,.71) 97%,rgba(237,237,237,.2) 99%,rgba(35,26,22,.19) 100%);
+		}
+
+		.col-1 {
+			width: 80%;
+			float: left;
+		}
+
+		.col-2 {
+			width: 20%;
+			float: right;
+			background: gray;
+		}
+
+		.vid-bar {
+			position: fixed;
+			left: 0;
+			right: 0;
+			background: black;
+			padding: 20px;
+			text-align: center;
+			z-index: 150;
+		}
+
+		.vid-bar video {
+			display: inline-block;
+			width: 200px;
+		}
+
+		.pos {
+			position: relative;
+			z-index: 100;
+		}
+
+		.pos_box {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 200px;
+			height: 200px;
+			background: red;
+			margin-bottom: -600px;
+			box-shadow: 0 0 10px black;
+		}
+
+		.u-float-left {
+			float: left;
+		}
+
+		.u-float-right {
+			float: right;
+		}
+
+		.u-clearfix:after {
+		  clear: both;
+		}
+
+		.u-clearfix:after,
+		.u-clearfix:before{
+		  content: "";
+		  display: table;
+		}
+
+	</style>
+	<!-- Start BounceX tag. Deploy at the beginning of document head. -->
+	<script>
+	(function(d) {
+		var e = d.createElement('script');
+		e.src = d.location.protocol + '//tag.bounceexchange.com/1322/i.js';
+		e.async = true;
+		d.getElementsByTagName("head")[0].appendChild(e);
+	}(document));
+	</script>
+	<!-- End Bounce X tag -->
+</head>
+<body>
+
+<div class="vid-bar">
+	<video controls poster="https://archive.org/download/WebmVp8Vorbis/webmvp8.gif" class="video">
+		<source src="https://archive.org/download/WebmVp8Vorbis/webmvp8_512kb.mp4" type="video/mp4">
+		<source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.ogv" type="video/ogg">
+		<source src="https://archive.org/download/WebmVp8Vorbis/webmvp8.webm" type="video/webm">
+		Your browser doesn't support HTML5 video tag.
+	</video>
+</div>
+
+<section class="wrapper">
+	<div class="wrapper_inner u-clearfix">
+		<div class="wrapper_menu"></div>
+
+		<div class="col-1">
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+			<p>Aenean massa.</p>
+			<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+			<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+			<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+			<p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
+			<p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+			<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
+			<p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+			<p>Nam eget dui. Etiam rhoncus.</p>
+			<p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+			<p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+			<p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+
+			<img src="https://placekitten.com/g/2000/1800" width="150" height="120" alt="" class="u-float-left">
+
+			<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+			<p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
+			<p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+			<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
+			<p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+
+			<img src="https://placekitten.com/g/2000/1800" width="150" height="120" alt="" class="u-float-right">
+
+			<p>Nam eget dui. Etiam rhoncus.</p>
+			<p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+			<p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+			<p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+
+			<div><aside><img src="https://placekitten.com/g/2000/1800" width="540" height="480" alt=""></aside><div class="u-clearfix"></div></div>
+			<div class="placer-token"></div>
+
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+			<p>Aenean massa.</p>
+			<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+			<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+			<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+			<p>Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
+			<p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+			<p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
+			<p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+			<p>Nam eget dui. Etiam rhoncus.</p>
+			<p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+			<p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+			<p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+		</div>
+		<div class="col-2">
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+			<p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+			<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+		</div>
+
+	</div>
+</section>
+
+<script>
+	//setTimeout(function() {
+	//$('.placer-token').append($('<div><aside><img src="https://placekitten.com/g/2000/1800" width="540" height="480" alt=""></aside><div class="clearfix"></div></div>'));	
+	//}, 500);
+
+	setTimeout(function() {
+	$('.wrapper_menu').css('visibility', 'visible').css('left', 0);
+	}, 1);
+
+	setTimeout(function() {
+	$('head').append('<style>.blur{-webkit-filter: blur(2px)!important;filter: blur(2px)!important;opacity: .6!important;}</style>')
+	$('.col-1 p:nth-of-type(6)').before($('<div class="pos"><div class="pos_box"></div></div>'));
+	$('.col-1 p:nth-of-type(6) ~ p, .col-1 p:nth-of-type(6) ~ div, .col-1 p:nth-of-type(6) ~ img').addClass('blur');
+	}, 10);
+</script>
+
+</body>
+</html>
