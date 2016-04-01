@@ -70,9 +70,9 @@
 <script type="text/javascript">
 	function update() {
 		var html = '';
-		html += '.bar: ' + $('.bar').width() + '<br>';
+		html += '.bar_creative: ' + $('.bar_creative').width() + '<br>';
 		html += 'body: ' + $('body').width();
-		$('.bar_inner').html(html);
+		$('.bar_wrap').html(html);
 	}
 	update();
 	jQuery(window).resize(update);
