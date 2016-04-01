@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>test</title>
+	<!--[if lt IE 9]>
+		<script>
+			document.createElement('header');
+			document.createElement('nav');
+			document.createElement('section');
+			document.createElement('article');
+			document.createElement('aside');
+			document.createElement('footer');
+		</script>
+	<![endif]-->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+	<style>
+		img { max-width: 100%; }
+		*, *:before, *:after {
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+		header, nav, section, article, aside, footer {
+			display:block;
+		}
+		/*@media only screen {
+			body { color: blue; }
+		}*/
+		body { background: #333; color: #fef; }
+		section, p { max-width: 960px; margin: 0 auto; }
+	</style>
+	<!-- Start BounceX tag. Deploy at the beginning of document head. -->
+	<script>
+	(function(d) {
+		var e = d.createElement('script');
+		e.src = d.location.protocol + '//tag.bounceexchange.com/1322/i.js';
+		e.async = true;
+		d.getElementsByTagName("head")[0].appendChild(e);
+	}(document));
+	</script>
+	<!-- End Bounce X tag -->
+</head>
+<body>
+
+<div class="bar"></div>
+<style type="text/css">
+	.bar {
+		width: 100%;
+		background: tomato;
+	}
+	.bar_inner {
+		max-width: 960px;
+		height: 100px;
+		margin: 0 auto;
+	}
+</style>
+<script type="text/javascript">
+	jQuery(window).resize(function() {
+		$('.bar_inner').text($('.bar').width());
+	});
+</script>
+
+</body>
+</html>
