@@ -44,24 +44,25 @@
 </head>
 <body>
 
-<div class="bar"><div class="bar_inner"></div></div>
+<div class="bar"><div class="bar_creative"><div class="bar_wrap"></div></div></div>
 <style type="text/css">
-	body {
-		text-align: center;
-	}
 	.bar {
-		display: inline-block;
 		position: fixed;
 		top: 0;
 		left: 0;
 		width: 100%;
+		text-align: center;
+	}
+	.bar_creative {
+		display: inline-block;
+		width: 100%;
 		zoom: .5;
 		background: tomato;
 	}
-	.bar_inner {
+	.bar_wrap {
 		display: inline-block;
-		max-width: 960px;
-		margin: 0 auto;
+		width: 960px;
+		max-width: 100%;
 		font-size: 40px;
 	}
 </style>
