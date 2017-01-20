@@ -55,8 +55,8 @@
     $(document).ready(function() {
       $(document).one('click', function() {
         addCss('.dynamic-el { color: red; padding: 10px; }', document.head, 'red');
-        $('head').append('<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">');
         addCss('.dynamic-el { color: green; padding: 20px; }', document.head, 'green');
+        $('<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">').appendTo(document.head);
         addCss('.dynamic-el { color: blue; padding: 30px; font-family: "Droid Sans", sans-serif; }', document.head, 'blue');
         $('nav').after('<div class="dynamic-el">Testing</div>');
       });
