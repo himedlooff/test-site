@@ -50,11 +50,13 @@
       }
       return style;
     }
-    $( document ).ready(function() {
-      addCss('body { color: red; }', document.head, 'red');
-      $('head').append('<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">');
-      addCss('body { color: green; }', document.head, 'green');
-      addCss('body { color: blue; font-family: "Droid Sans", sans-serif; }', document.head, 'blue');
+    $(document).ready(function() {
+      $(document).click(function() {
+        addCss('body { color: red; }', document.head, 'red');
+        $('head').append('<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">');
+        addCss('body { color: green; }', document.head, 'green');
+        addCss('body { color: blue; font-family: "Droid Sans", sans-serif; }', document.head, 'blue');
+      });
     });
   </script>
 </head>
