@@ -54,10 +54,11 @@
     }
     $(document).ready(function() {
       $(document).click(function() {
-        addCss('body { color: red; }', document.head, 'red');
+        addCss('.dynamic-el { color: red; padding: 10px; }', document.head, 'red');
         $('head').append('<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">');
-        addCss('body { color: green; }', document.head, 'green');
-        addCss('body { color: blue; font-family: "Droid Sans", sans-serif; }', document.head, 'blue');
+        addCss('.dynamic-el { color: green; padding: 20px; }', document.head, 'green');
+        addCss('.dynamic-el { color: blue; padding: 30px; font-family: "Droid Sans", sans-serif; }', document.head, 'blue');
+        $('nav').after('<div class="dynamic-el">Testing</div>');
       });
     });
   </script>
